@@ -58,7 +58,7 @@ define(
                     fieldId: fieldId,
                     value: value,
                     field: field,
-                    raw: fieldId + "=" + value + "\01",
+                    raw: fieldId + "=" + value + "\x01",
                     decodedValue: decodedValue,
                     classes: classes.join(' ')
                 });

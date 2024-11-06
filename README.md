@@ -41,6 +41,15 @@ Then to build the project, just type:
 
 The files will be copied on the 'dist' directory.
 
+Install httpserver to serve the project on browser
+> npm install -g http-server
+
+How to run
+============
+
+Runs project on browser
+> http-server -o dist/
+
 License
 =======
 
